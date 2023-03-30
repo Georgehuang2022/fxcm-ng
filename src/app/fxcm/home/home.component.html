@@ -1,0 +1,19 @@
+<form #homeForm="ngForm">
+  <h1>Fxcm Service</h1>
+  <div fxLayout="column">
+    <mat-form-field appearance="outline">
+      <mat-label>Endpoint</mat-label>
+      <input matInput [(ngModel)]="endpoint" name="endpoint">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Body</mat-label>
+      <textarea matInput [(ngModel)]="body" name="endpoint"></textarea>
+    </mat-form-field>
+    <!-- <app-child></app-child> -->
+
+  </div>
+  <button mat-raised-button color="primary" (click)="get()">Get</button> &nbsp;
+  <button mat-raised-button color="primary" (click)="post()">Post</button>
+</form>
+<pre>{{result | json}}</pre>
+

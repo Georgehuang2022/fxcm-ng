@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0px;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  overflow: hidden;
+}
+
+
+.example-container {
+  height: 100vh;
+  margin: 10px;
+}
+
+.example-sidenav-content {
+  height: 100%;
+}
+
+.example-sidenav {
+  margin: 0px;
+}
+.mat-list-item{
+  border-bottom: 1px solid black;
+}
